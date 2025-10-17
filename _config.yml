@@ -14,39 +14,39 @@ timezone: Asia/Ho_Chi_Minh
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: haxj's blog # the main title
+title: huynguyencong's blog # the main title
 
-tagline: Random thoughts and side projects  # it will display as the sub-title
+tagline: Random thoughts and side projects # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   Notes of a software engineer.
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://haxj.github.io"
+url: "https://huynguyencong.github.io"
 
 github:
-  username: haxj # change to your github username
+  username: huynguyencong # change to your github username
 
 twitter:
-  username: _haxj # change to your twitter username
+  username: # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: haxj
-  email: haxj.123@protonmail.com # change to your email address
+  name: Huy Nguyen Cong
+  email: # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/haxj # change to your github homepage
+    - https://github.com/huynguyencong # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
 # Site Verification Settings
 webmaster_verifications:
-  google: 'RTHX_50MboRiKS4vCoQIDLjov6Sh2bNxY79dl7UWVlQ' # fill in your Google verification code
+  google: "RTHX_50MboRiKS4vCoQIDLjov6Sh2bNxY79dl7UWVlQ" # fill in your Google verification code
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
@@ -59,7 +59,7 @@ webmaster_verifications:
 # Web Analytics Settings
 analytics:
   google:
-    id: 'G-XQCP0WT0ER'              # fill in your Google Analytics ID
+    id: "" # fill in your Google Analytics ID
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
