@@ -14,9 +14,9 @@ timezone: Asia/Ho_Chi_Minh
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: huynguyencong's blog # the main title
+title: Funds' performance # the main title
 
-tagline: Random thoughts and side projects # it will display as the sub-title
+tagline: This site's theme and some content are based on haxj's blog repository (https://github.com/haxj/haxj.github.io). The content has been modified and customized for my personal use.
 
 description: >- # used by seo meta and the atom feed
   Notes of a software engineer.
@@ -46,7 +46,7 @@ social:
 
 # Site Verification Settings
 webmaster_verifications:
-  google: "RTHX_50MboRiKS4vCoQIDLjov6Sh2bNxY79dl7UWVlQ" # fill in your Google verification code
+  google: "" # fill in your Google verification code
   bing: # fill in your Bing verification code
   alexa: # fill in your Alexa verification code
   yandex: # fill in your Yandex verification code
@@ -96,7 +96,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/avatar.jpg
+avatar: /assets/img/avatar.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
