@@ -41,7 +41,7 @@
 
 ## Documentation
 
-To learn how to use, develop, and upgrade the project, please refer to the [Wiki][wiki].
+Update fund data at `/assets/data/resampled/W-MON/combine_resampled_data.csv`
 
 ## Contributing
 
