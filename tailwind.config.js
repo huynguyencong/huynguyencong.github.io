@@ -2,6 +2,9 @@ const colors = require('tailwindcss/colors')
 
 module.exports = {
   prefix: "tw-",
+  corePlugins: {
+    preflight: false,
+  },
   content: [
     "./_posts/**/*",
     "./_layouts/**/*",
@@ -13,12 +16,7 @@ module.exports = {
   plugins: [require("daisyui")],
   daisyui: {
     themes: [
-      {
-        dark: {
-          ...require("daisyui/src/colors/themes")["[data-theme=dark]"],
-          "base-100": "#1b1b1e"
-        }
-      },
+      "dark",
       "light"
     ]
   },
@@ -29,5 +27,5 @@ module.exports = {
       },
     },
   },
-  darkMode: 'class',
+  darkMode: ['selector', '[data-mode="dark"]'],
 }

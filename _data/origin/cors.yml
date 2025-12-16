@@ -1,0 +1,55 @@
+# Resource Hints
+resource_hints:
+  - url: https://fonts.googleapis.com
+    links:
+      - rel: preconnect
+      - rel: dns-prefetch
+  - url: https://fonts.gstatic.com
+    links:
+      - rel: preconnect
+        opts: [crossorigin]
+      - rel: dns-prefetch
+  - url: https://cdnjs.cloudflare.com
+    links:
+      - rel: preconnect
+      - rel: dns-prefetch
+
+# Web Fonts
+webfonts: https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Source+Sans+Pro:wght@400;600;700;900&display=swap
+
+# Libraries
+
+toc:
+  css: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.20/tocbot.min.css
+  js: https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.27.20/tocbot.min.js
+
+fontawesome:
+  css: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
+
+search:
+  # js: https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js
+  js: https://cdnjs.cloudflare.com/ajax/libs/simple-jekyll-search/1.9.2/simple-jekyll-search.min.js
+
+mermaid:
+  js: https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.0/mermaid.min.js
+
+dayjs:
+  js:
+    common: https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.11/dayjs.min.js
+    locale: https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.11/locale/:LOCALE.min.js
+    relativeTime: https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.11/plugin/relativeTime.min.js
+    localizedFormat: https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.11/plugin/localizedFormat.min.js
+
+glightbox:
+  css: https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/css/glightbox.min.css
+  js: https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/js/glightbox.min.js
+
+lazy-polyfill:
+  css: https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.min.css
+  js: https://cdn.jsdelivr.net/npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js
+
+clipboard:
+  js: https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.11/clipboard.min.js
+
+mathjax:
+  js: https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js
