@@ -1,3 +1,6 @@
+# Ensure data files are included in the site build
+include:
+  - assets/data
 # The Site Configuration
 
 # Import the theme
