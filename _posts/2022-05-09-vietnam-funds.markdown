@@ -10,7 +10,7 @@ tags: [d3.js, finance, data visualization, vietnam]
 <!-- <script defer src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script> -->
 <!-- <script defer src="{{ '/assets/js/custom/fundschart.js' }}"></script> -->
 
-<script defer src="{{ '/assets/js/dist/fundschart.min.js' }}"></script>
+<script defer src="{{ site.baseurl }}/assets/js/dist/fundschart.min.js"></script>
 
 
 <style>
